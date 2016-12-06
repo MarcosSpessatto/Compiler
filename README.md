@@ -1,10 +1,10 @@
 # Transpiler from CT language to Java
 
 #**RUN**
-jflex LexicalAnalyzer.flex
-yacc -J Parser.y
-javac *.java
-java Parser file
+jflex LexicalAnalyzer.flex<br/>
+yacc -J Parser.y<br/>
+javac *.java<br/>
+java Parser file<br/>
 
 ####Systax of Ct Language
 // Programa de teste da Linguagem CT
