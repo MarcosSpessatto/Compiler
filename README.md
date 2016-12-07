@@ -1,5 +1,7 @@
 # Transpiler from CT language to Java
 
+Transpiler written using (Jflex and Byacc/J) , for academic purposes of computer science course.
+
 #**RUN**
 jflex LexicalAnalyzer.flex<br/>
 yacc -J Parser.y<br/>
