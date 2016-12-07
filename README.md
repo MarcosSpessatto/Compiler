@@ -11,8 +11,8 @@ java Parser file<br/>
 
 // Declaracao de Classes
 
-classe Aluno {
-	inteiro num, num_notas
+classe Aluno {<br/>
+	inteiro num, num_notas <br/>
 	vetor inteiro notas[30]
 
 	// funcoes da classe aluno
@@ -103,3 +103,30 @@ classe testa{
 		al1.deve()
 	}
 }
+
+classe Teste {
+
+	funcao_principal {
+
+		inteiro numero1
+		inteiro numero2
+		String nome
+
+		numero1 <- 10
+		numero2 <- 2 * (10 - 5 + (3 * (15-1)))
+
+		nome <- "Marcos Defendi"
+		numero1 <- nome.length
+		nome <- nome.trim()
+
+		se (numero1 > (numero2 * (numero1 / 2.0))){
+			escrever("Entrou no if." + numero1 + "" + numero2)
+		} senao {
+			escrever("Entrou no else.")
+		}
+
+		_
+
+	}
+}
+
