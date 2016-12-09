@@ -8,7 +8,7 @@ yacc -J Parser.y<br/>
 javac *.java<br/>
 java Parser file<br/>
 
-####Systax of Ct Language
+####Syntax of Ct Language
 // Programa de teste da Linguagem CT
 
 // Declaracao de Classes
